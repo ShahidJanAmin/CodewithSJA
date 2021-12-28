@@ -22,29 +22,46 @@
         }
     </style>
 </head>
+<style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
+</style>
 
 <body>
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Coding with Akhtar</a>
+            <a class="navbar-brand" href="#">Coding with SJA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.htm">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contec.htm">Contect us</a>
-                    </li>
+            <style>
+                .justify-content-center li a {
+                    margin-right: 20px;
+                    color: white;
+                    font-weight: bold;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                
+                .justify-content-center li a:hover {
+                    border-bottom: 2px solid white;
+                    color: white;
+                }
+            </style>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.htm">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.htm">Login</a>
+                </li>
 
-                </ul>
-            </div>
+            </ul>
         </div>
     </nav>
 
@@ -55,9 +72,8 @@
     <div class="container my-5">
 
         <div class="row align-items-md-stretch">
-            <div class="col-md-6 sm-10" style="overflow: hidden;">
-                <img src="https://scontent.fisb4-1.fna.fbcdn.net/v/t39.30808-6/244609173_2937902293140535_1622891916743172796_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHULltvTxcNqqcxNePuDtj4kyviNYGfndSTK-I1gZ-d1NJoYdiJqxs96zdTMOZPUkd34pQTrQlpOeh6sfGAVuYW&_nc_ohc=M4fngFz9ChgAX8k2ist&_nc_ht=scontent.fisb4-1.fna&oh=0a1362694f07d8b3712350c17430b4bc&oe=6191BD27"
-                    alt="" srcset="" class='img-thumbnail' id="showfull">
+            <div class="col-md-6 sm-10" style="overflow: hidden">
+                <img src="images/shahid.jpg" alt="" srcset="" class='img-thumbnail' id="showfull">
             </div>
             <div class="col-md-6 sm-10 md-my-5">
                 <div class="h-100 p-5  rounded-3">
@@ -74,15 +90,22 @@
 
         <!-- for contents -->
         <div class="row my-5">
-            <div class="card mx-auto my-2 p-2 align-items-center" style="width: 25rem;"><img src="https://source.unsplash.com/900x600/?python,programming" alt="..." class="padded card-img-top">
+            <div class="card mx-auto my-2 p-2 align-items-center" style="width: 25rem;">
+                <a href="\html\python.htm" style="text-decoration: none; color:black">
+                    <img src="https://source.unsplash.com/900x600/?python,programming" alt="..." class="padded card-img-top"></a>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Python begginer Courses</h5>
-                    <p class="card-text text-center">Get your programming career started with Python courses. Here you can learn with amazing program.</p><a class="btn btn-primary d-block" href="/python">Programming Booksses</a></div>
+                    <h5 class="card-title text-center"><a href="html\python.htm"> Python begginer Courses</a></h5>
+                    <p class="card-text text-center">Get your programming career started with Python courses. Here you can learn with amazing program.</p>
+                    <a class="btn btn-primary d-block" href="html\python.htm">Programming Booksses</a></div>
+
             </div>
 
-            <div class="card mx-auto my-2 p-2 align-items-center" style="width: 25rem;"><img src="https://source.unsplash.com/900x600/?designing,website" alt="..." class="padded card-img-top">
+            <div class="card mx-auto my-2 p-2 align-items-center" style="width: 25rem;">
+                <a href="\html\html.htm">
+                    <img src="https://source.unsplash.com/900x600/?designing,website" alt="..." class="padded card-img-top">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title text-center">HTML Courses</h5>
+                    <h5 class="card-title text-center"><a href="html\html.htm">Courses </a> </h5>
                     <p class="card-text text-center"> Start Web Designing HTML courses. Here you can learn HTML with amazing tasks now Let's Start.</p><a class="btn btn-primary d-block" href="/python">Programming Bookss</a></div>
             </div>
 
